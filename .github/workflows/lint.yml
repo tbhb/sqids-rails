@@ -1,0 +1,21 @@
+---
+name: Lint
+on:
+  push:
+    branches:
+      - "main"
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  ruby:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      checks: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: StandardRB Linter
+        uses: testdouble/standard-ruby-action@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
