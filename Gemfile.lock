@@ -8,7 +8,7 @@ GIT
 PATH
   remote: .
   specs:
-    sqids-rails (0.1.0)
+    sqids-rails (0.1.1)
       rails (>= 6.1.0)
       sqids (~> 0.2)
 
