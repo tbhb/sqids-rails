@@ -1,5 +1,8 @@
 # sqids-rails
 
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/tbhb/sqids-rails/tests.yml)
+![Gem Version](https://img.shields.io/gem/v/sqids-rails)
+
 [Sqids](https://sqids.org) (formerly [Hashids](https://github.com/hashids)) integration for [Ruby on Rails](https://rubyonrails.org).
 
 From [sqids-ruby](https://github.com/sqids/sqids-ruby):
