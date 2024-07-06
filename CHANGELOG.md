@@ -6,6 +6,10 @@
 
 - Only depend on `activerecord` gem instead of `rails`
 
+### Miscellaneous
+
+- Test against Rails 7.2.0.beta2
+
 ## [0.1.1](https://github.com/tbhb/sqids-rails/releases/tag/v0.1.1) - 2024-07-05
 
 ### Fixes
