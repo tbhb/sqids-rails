@@ -2,6 +2,10 @@
 
 ## [Unreleased](https://github.com/tbhb/sqids-rails/compare/v0.1.1...main)
 
+### Enhancements
+
+- Only depend on `activerecord` gem instead of `rails`
+
 ## [0.1.1](https://github.com/tbhb/sqids-rails/releases/tag/v0.1.1) - 2024-07-05
 
 ### Fixes
