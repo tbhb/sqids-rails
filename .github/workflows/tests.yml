@@ -36,3 +36,5 @@ jobs:
         run: bundle exec appraisal rails-6-1 rails test
       - name: Appraise Rails 7.0
         run: bundle exec appraisal rails-7-0 rails test
+      - name: Appraise Rails 7.2
+        run: bundle exec appraisal rails-7-2 rails test
