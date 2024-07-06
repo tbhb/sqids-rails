@@ -80,6 +80,12 @@ Prevent specific words from appearing anywhere in generated IDs:
 has_sqid blocklist: Set.new(%w[86Rf07])
 ```
 
+## Performance considerations
+
+- Consider adding indexes (with uniqueness constraints) when finding records by Sqid.
+- The size of the alphabet can impact performance. A larger alphabet allows for shorter Sqids but slightly increase generation time.
+- The size of the blocklist can impact performance, as each generated ID is checked against the blocklist.
+
 ## Roadmap
 
 - [x] `has_sqid` for auto-generating Sqid columns
