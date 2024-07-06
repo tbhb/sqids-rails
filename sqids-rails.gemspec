@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 3.1"
 
-  spec.add_dependency "rails", ">= 6.1.0"
+  spec.add_dependency "activerecord", ">= 6.1.0"
   spec.add_dependency "sqids", "~> 0.2"
 
   spec.add_development_dependency "appraisal"
