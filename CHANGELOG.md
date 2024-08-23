@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/tbhb/sqids-rails/compare/v0.1.1...main)
+## [Unreleased](https://github.com/tbhb/sqids-rails/compare/v0.2.0...main)
+
+## [0.2.0](https://github.com/tbhb/sqids-rails/releases/tag/v0.2.0) - 2024-08-22
 
 ### Enhancements
 
