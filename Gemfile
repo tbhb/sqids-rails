@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "rails", "~> 7.2.0"
+gem "rails", "~> 7.2.2"
 
 gem "puma"
 gem "sprockets-rails"
